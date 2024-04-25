@@ -16,7 +16,7 @@
 ## 示例
 
 #### 数据模型
-```Rust
+```Javascript
 
 #[derive(Clone, Debug, PartialEq, DeriveEntityModel, Eq, Serialize, Deserialize)]
 #[sea_orm(table_name = "post")]
@@ -29,7 +29,7 @@ pub struct Model {
 }
 ```
 #### 生成的内容
-```Rust
+```Javascript
 
 ///添加博客模型
 #[derive(Deserialize, Debug, Validate, ToSchema, Default)]

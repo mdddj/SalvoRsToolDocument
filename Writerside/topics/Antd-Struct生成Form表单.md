@@ -10,7 +10,7 @@
 ## 示例
 
 ## struct模型
-```Rust
+```Javascript
 #[derive(Deserialize, Debug, Validate, ToSchema, Default)]
 pub struct PostAddRequest {
     ///标题

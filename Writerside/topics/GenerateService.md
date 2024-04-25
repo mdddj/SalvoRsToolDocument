@@ -19,7 +19,7 @@
 
 #### 模型
 
-```Rust
+```Javascript
 #[derive(Clone, Debug, PartialEq, DeriveEntityModel, Eq, Serialize, Deserialize)]
 #[sea_orm(table_name = "post")]
 pub struct Model {
@@ -33,7 +33,7 @@ pub struct Model {
 
 #### 生成的内容
 
-```Rust
+```Javascript
 
 pub async fn add_post(req: PostAddRequest) -> AppResult<PostResponse> {
     let db = DB

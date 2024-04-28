@@ -10,8 +10,10 @@
     <toc-element topic="GenerateDTO.md"/>
     <toc-element topic="Generate-Router.md"/>
     <toc-element topic="GenerateService.md"/>
+    <toc-element topic="Salvo-Api-Window.md"/>
     <toc-element topic="Antd-Struct生成Form表单.md"/>
     <toc-element topic="Antd-Struct生成Table的column属性.md"/>
     <toc-element topic="TS-Struct生成Interface.md"/>
-    <toc-element topic="其他.md"/>
+    <toc-element topic="打赏和联系.md"/>
+    <toc-element topic="Changelog更新日志.topic"/>
 </instance-profile>

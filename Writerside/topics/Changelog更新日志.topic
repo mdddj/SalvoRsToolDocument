@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Changelog更新日志" id="Changelog更新日志">
+
+    更多日志在<a href="https://github.com/mdddj/SalvoRsTool/blob/main/CHANGELOG.md">Github</a>查看
+    <chapter title="1.5.0" id="1-5-0">
+        <list>
+            <li>调整dto生成代码的窗口</li>
+            <li>添加Salvo Api接口扫描工具,详情查看<a href="Salvo-Api-Window.md">Api Window</a></li>
+        </list>
+    </chapter>
+
+</topic>

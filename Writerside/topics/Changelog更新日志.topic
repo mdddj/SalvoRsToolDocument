@@ -6,6 +6,15 @@
        title="Changelog更新日志" id="Changelog更新日志">
 
     更多日志在<a href="https://github.com/mdddj/SalvoRsTool/blob/main/CHANGELOG.md">Github</a>查看
+
+
+    <chapter title="1.5.1" id="1-5-1">
+        <list>
+            <li>Api窗口添加复制URL和复制antd request 请求功能,详情<a href="Salvo-Api-Window.md" anchor="2">查看</a></li>
+            <li>适配RustRover2024.1</li>
+        </list>
+    </chapter>
+
     <chapter title="1.5.0" id="1-5-0">
         <list>
             <li>调整dto生成代码的窗口</li>

@@ -8,6 +8,13 @@
     更多日志在<a href="https://github.com/mdddj/SalvoRsTool/blob/main/CHANGELOG.md">Github</a>查看
 
 
+
+    <chapter title="1.5.2" id="1-5-2">
+        <list>
+            <li>修复struct属性为Option类型无法生成Typescript Interface字段的问题</li>
+        </list>
+    </chapter>
+
     <chapter title="1.5.1" id="1-5-1">
         <list>
             <li>Api窗口添加复制URL和复制antd request 请求功能,详情<a href="Salvo-Api-Window.md" anchor="2">查看</a></li>

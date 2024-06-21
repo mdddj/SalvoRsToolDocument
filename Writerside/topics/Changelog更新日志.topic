@@ -9,6 +9,12 @@
 
 
 
+    <chapter title="1.8.0" id="1-8-0">
+        <list>
+            <li>1.添加json 生成 sea-orm migration代码工具 <code>beta版</code></li>
+            <li><a href="SEA-ORM-json-gen-migration-code.topic">查看文档</a></li>
+        </list>
+    </chapter>
 
     <chapter title="1.6.0" id="1-6-0">
         <list>

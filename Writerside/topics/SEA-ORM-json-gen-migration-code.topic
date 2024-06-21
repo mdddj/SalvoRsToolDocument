@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="SEA-ORM: json gen migration code" id="SEA-ORM-json-gen-migration-code">
+
+    <chapter title="注意" id="start">
+        <note>它暂时只能生成代码,文件还是需要使用sea-orm-cli生成,然后把生成的代码复制到文件中,后面可能会优化自动创建
+        </note>
+    </chapter>
+
+
+    <chapter title="开始使用" id="use">
+        <p>在底部操作区域找到这个图标,点击<code>Json to SeaOrm</code>功能</p>
+
+        <img src="sea-orm-json-01.png" alt="sea-orm-json-01.png"/>
+
+        <p>输入你的表名,和JSON</p>
+        <note title="注意JSON格式">它暂时只能支持简单的json,如果有二级嵌套json,是不支持的,有数组也不支持</note>
+        <img src="sea-orm-json-02.png" alt="sea-orm-json-02.png"/>
+
+
+        <p>将代码的生成结果复制到文件中</p>
+
+        <note>在这里也可以修改表名,和切换生成需要的代码段</note>
+
+        <img src="sea-orm-json-03.png" alt="sea-orm-json-03.png"/>
+    </chapter>
+
+</topic>

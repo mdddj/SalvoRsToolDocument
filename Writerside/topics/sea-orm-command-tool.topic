@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="sea-orm: command tool" id="sea-orm-command-tool">
+
+    <chapter title="介绍" id="start">
+        sea-orm-cli可视化操作,它可以替代一些控制台命令
+
+        <note>版本1.9.0新增</note>
+    </chapter>
+
+    <chapter title="开始" id="tool-start">
+        功能入口,基本上可以简化cli的功能
+        <img src="sea-orm-command-01.png" alt="sea-orm-command-01.png"/>
+    </chapter>
+
+
+
+
+</topic>

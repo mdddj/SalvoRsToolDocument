@@ -9,11 +9,13 @@
 
 ## Github下载安装
 
+> 原插件名`SalvoRsTool`,现在改名RustX
+
 * Github: [https://github.com/mdddj/SalvoRsTool](https://github.com/mdddj/SalvoRsTool)
 * 发行版本: [https://github.com/mdddj/SalvoRsTool/releases](https://github.com/mdddj/SalvoRsTool/releases)
 ## idea插件市场安装
 
-### 1.插件市场搜索:`SalvoRsTool`下载安装
+### 1.插件市场搜索:`RustX`下载安装
 
-![img.png](img.png)
+![img.png](install.png)
 

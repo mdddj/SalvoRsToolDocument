@@ -1,36 +1,37 @@
-# Antd: Struct生成Form表单
+# Struct generate Form
 
 
-可以选中struct名称,鼠标单击右键,会出现一个`生成antd表单`的菜单选项
+You can select the struct name, right-click the mouse, and a menu option of `Generate antd form` will appear.
 
 ![img_antd_form.png](img_antd_form.png)
 
-它会生成一个form表单提交的react代码
+It will generate a react code for form submission
 
-## 示例
+## Example
 
-## struct模型
-```Javascript
+## struct model
+
+```Rust
 #[derive(Deserialize, Debug, Validate, ToSchema, Default)]
 pub struct PostAddRequest {
-    ///标题
+
     #[salvo(schema(example = "test"), parameter(description = "标题"))]
     pub title: String,
-    ///正文内容
+
     #[salvo(schema(example = "test content"))]
     pub content: String,
-    ///分类ID
+
     #[salvo(schema(example = 1))]
     pub category_id: i32,
 }
 ```
 
-## 生成的代码
+## generated code
 
 
-需要自己去实现添加和修改两个操作
+You need to implement the two operations of adding and modifying yourself
 
-```Javascript
+```Rust
 type Prop = {
   trigger?: JSX.Element | undefined,
   initValues?: PropInitValue | undefined
@@ -43,12 +44,12 @@ interface PostAddRequest {
 
 const AddOrUpdateForm: React.FC<Prop> = (props) => {
   let isUpdate = props.initValues !== undefined
-  //提交数据
+
   const onFinish = async (values: PropInitValue) => {
     if(isUpdate) {
-      // Todo! 修改
+      // Todo! update
     }else{
-      // ToDo! 新增
+      // ToDo! add
     }
     return true
   }

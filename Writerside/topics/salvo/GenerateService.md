@@ -1,25 +1,25 @@
 # Generate Service
 
-## 生成service
+## generate service
 
 ![img_service.png](img_service.png)
 
-生成service会生成四个访问数据库的函数
+Generating service will generate four functions for accessing the database
 
 * `add`
 * `update`
 * `delete`
 * `find all`
 
-...后面可能会添加更多的
+...More may be added later
 
-> 注意需要先生成dto,否则这些struct会提示找不到
+> Note that you need to generate dto first, otherwise these structs will prompt that they cannot be found.
 
-## 示例
+## Example
 
-#### 模型
+#### model
 
-```Javascript
+```Rust
 #[derive(Clone, Debug, PartialEq, DeriveEntityModel, Eq, Serialize, Deserialize)]
 #[sea_orm(table_name = "post")]
 pub struct Model {
@@ -31,9 +31,9 @@ pub struct Model {
 }
 ```
 
-#### 生成的内容
+#### generated content
 
-```Javascript
+```Rust
 
 pub async fn add_post(req: PostAddRequest) -> AppResult<PostResponse> {
     let db = DB

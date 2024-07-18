@@ -1,17 +1,17 @@
 # Generate Router
 
-## 生成router
+## Generate router
 
 ![img_router.png](img_router.png)
 
-生成router,会默认生成对应的增删改查的api接口
+Generating a router will generate the corresponding API interface for addition, deletion, modification and query by default.
 
-> 注意需要先生成dto,否则这些struct会提示找不到
+> Note that you need to generate dto first, otherwise these structs will prompt that they cannot be found.
 
-## 示例
+## example
 
-#### 数据模型
-```Javascript
+#### data model
+```Rust
 #[derive(Clone, Debug, PartialEq, DeriveEntityModel, Eq, Serialize, Deserialize)]
 #[sea_orm(table_name = "post")]
 pub struct Model {
@@ -23,11 +23,11 @@ pub struct Model {
 }
 ```
 
-#### 生成的内容
+#### generated content
 
-```Javascript
+```Rust
 
-/// 添加博客
+
 #[endpoint(tags("博客"))]
 pub async fn post_add_post(new_post: JsonBody<PostAddRequest>) -> AppWriter<PostResponse> {
     let result = post::add_post(new_post.0).await;
@@ -49,9 +49,7 @@ pub async fn delete_post(id: PathParam<i32>) -> AppWriter<()> {
     AppWriter(result)
 }
 
-/// 获取所有博客
-///
-/// 一次加载全部博客
+
 #[endpoint(tags("博客"))]
 pub async fn get_post_all() -> AppWriter<Vec<PostResponse>> {
     let result = post::post_find_all().await;

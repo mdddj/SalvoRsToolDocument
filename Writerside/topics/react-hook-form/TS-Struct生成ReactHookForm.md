@@ -1,38 +1,35 @@
-# TS: Struct生成ReactHookForm
+# Struct Generate ReactHookForm
 
 
-> 注意:下面的功能需要在前端项目中添加两个前端框架(<a href='https://tailwindcss.com/docs/installation/'>tailwindcss</a>和<a href='https://daisyui.com/'>daisy ui</a>)
+> Note: The following functions require adding two front-end frameworks to the front-end project(<a href='https://tailwindcss.com/docs/installation/'>tailwindcss</a>和<a href='https://daisyui.com/'>daisy ui</a>)
 
-> 注意: 需要再temp窗口添加两个React组件,打开并拷贝到你的react项目中
+> Note: You need to add two React components in the temp window, open and copy them to your react project
 > 
 ![img_hook_form_temp.png](img_hook_form_temp.png)
 
 
-## 开始使用
+## start using
 
 ![img_hook_form.png](img_hook_form.png)
 
-## 示例 struct
+## example struct
 
 
 
 
 
 rust 
-```Javascript
+
+```Rust
 pub struct PermissionAddRequest {
-    ///名称
     pub name: String,
-    ///介绍
     pub description: Option<String>,
-    ///创建时间
     pub create_time: Option<String>,
-    ///访问URL
     pub permission_url: Option<String>
 }
 ```
 
-## 生成表单内容
+## Generate form content
 
 interface
 ```Javascript
@@ -52,7 +49,7 @@ interface PermissionAddRequest {
 const MyDialog: React.FC<Prop> = (props) => {
     const { register, handleSubmit, reset, control} = useForm<PermissionAddRequest>();
 
-    //todo!提交数据
+    //todo!
     const onFinish = async (values: PermissionAddRequest) => {
 
     };
@@ -96,6 +93,6 @@ const MyDialog: React.FC<Prop> = (props) => {
 export { MyDialog };
 ```
 
-## 效果
+## Result
 
 ![img_hook_form_example.png](img_hook_form_example.png)

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="SEA-ORM: json gen migration code" id="SEA-ORM-json-gen-migration-code">
+
+    <chapter title="note" id="start">
+        <note>It can only generate code for the time being. The file still needs to be generated using sea-orm-cli, and then copy the generated code to the file. It may be optimized and automatically created later.
+        </note>
+    </chapter>
+
+
+    <chapter title="start using" id="use">
+        <p>Find this icon in the bottom operation area and click<code>Json to SeaOrm</code></p>
+
+        <img src="sea-orm-json-01.png" alt="sea-orm-json-01.png"/>
+
+        <p>Enter your table name and JSON</p>
+        <note title="Pay attention to JSON format">It can only support simple json for the time being. If there is a second-level nested json, it is not supported, and it is not supported if there is an array.</note>
+        <img src="sea-orm-json-02.png" alt="sea-orm-json-02.png"/>
+
+
+        <p>Copy the generated results of the code to a file</p>
+
+        <note>Here you can also modify the table name and switch to generate the required code segments.</note>
+
+        <img src="sea-orm-json-03.png" alt="sea-orm-json-03.png"/>
+    </chapter>
+
+</topic>

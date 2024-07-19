@@ -16,7 +16,7 @@
 
         <list>
             <li>Completely rewritten `salvo api` scanning implementation</li>
-            <li>Added right-click menu operation function to jump to `salvo router handle`</li>
+            <li>Added right-click menu operation function to jump to `salvo router handle` <a href="Navigator-to-Router-Handle-Function.md">See</a> </li>
             <li>Group `salvo` Code generate function operations
                 <tabs>
                     <tab title="Old" id="old">

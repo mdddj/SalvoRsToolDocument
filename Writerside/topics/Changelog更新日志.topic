@@ -12,6 +12,8 @@
 
     <chapter title="2.0.0 (2024-07-19)" id="2.0.0">
 
+        <primary-label ref="label"/>
+
         <list>
             <li>Completely rewritten `salvo api` scanning implementation</li>
             <li>Added right-click menu operation function to jump to `salvo router handle`</li>

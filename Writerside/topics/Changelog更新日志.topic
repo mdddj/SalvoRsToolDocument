@@ -11,9 +11,6 @@
 
 
     <chapter title="2.0.0 (2024-07-19)" id="2.0.0">
-        <topic title="test">
-            <primary-label ref="label"></primary-label>
-        </topic>
 
         <list>
             <li>Completely rewritten `salvo api` scanning implementation</li>

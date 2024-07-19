@@ -3,14 +3,16 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="RustX Document"
-                 start-page="Default-topic.md">
+                  name="RustX Document"
+                  start-page="Default-topic.md">
 
     <toc-element toc-title="Salvo">
         <toc-element topic="GenerateDTO.md"/>
         <toc-element topic="Generate-Router.md"/>
         <toc-element topic="GenerateService.md"/>
-        <toc-element topic="Salvo-Api-Window.md"/>
+        <toc-element topic="Salvo-Api-Window.md">
+        </toc-element>
+        <toc-element topic="Navigator-to-Router-Handle-Function.md"/>
     </toc-element>
     <toc-element toc-title="Antd">
         <toc-element topic="Antd-Struct生成Form表单.md"/>

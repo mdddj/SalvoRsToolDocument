@@ -8,6 +8,30 @@
     More logs at <a href="https://github.com/mdddj/SalvoRsTool/blob/main/CHANGELOG.md">Github</a>
 
 
+
+
+    <chapter title="2.0.0 (2024-07-19)" id="2.0.0">
+        <topic title="test">
+            <primary-label ref="label"></primary-label>
+        </topic>
+
+        <list>
+            <li>Completely rewritten `salvo api` scanning implementation</li>
+            <li>Added right-click menu operation function to jump to `salvo router handle`</li>
+            <li>Group `salvo` Code generate function operations
+                <tabs>
+                    <tab title="Old" id="old">
+                        <img src="../images/2_0_0/old_salvo_actions.png" alt="old"/>
+                    </tab>
+                    <tab title="New" id="new">
+                        <img src="../images/2_0_0/salvo_code_generate_new_group.png" alt="old"/>
+                    </tab>
+                </tabs>
+            </li>
+        </list>
+        
+    </chapter>
+
     <chapter title="1.9.0 (2024-07-04)" id="1-9-0">
         <list>
             <li>Change the plugin name to RustX, and the icon</li>

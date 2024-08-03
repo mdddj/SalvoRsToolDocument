@@ -8,11 +8,17 @@
     More logs at <a href="https://github.com/mdddj/SalvoRsTool/blob/main/CHANGELOG.md">Github</a>
 
 
+    <chapter title="2.0.3 (2024-08-03)" id="2-0-3">
+        <primary-label ref="label"/>
+
+        <list>
+            <li>Fix the bug where the JSON to Sea-ORM type is null.</li>
+            <li>Fix the issue with reading the Cargo.toml file causing an error.</li>
+        </list>
+    </chapter>
 
 
     <chapter title="2.0.0 (2024-07-19)" id="2.0.0">
-
-        <primary-label ref="label"/>
 
         <list>
             <li>Completely rewritten `salvo api` scanning implementation</li>

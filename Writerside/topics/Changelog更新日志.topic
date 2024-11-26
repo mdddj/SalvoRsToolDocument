@@ -8,8 +8,26 @@
     More logs at <a href="https://github.com/mdddj/SalvoRsTool/blob/main/CHANGELOG.md">Github</a>
 
 
-    <chapter title="2.0.3 (2024-08-03)" id="2-0-3">
+    <chapter title="2.2.x (2024-11-26)" id="2-2-x">
         <primary-label ref="label"/>
+        <list>
+            <li>Support Ideas ideaU,RustRover</li>
+            <li>Sql generate to struct (support MySQL,sqlite)
+            <img alt="update_2.2.x_sql_generate.png" src="update_2.2.x_sql_generate.png"/>
+            </li>
+            <li>Refactored salvo related generator
+            <img alt="update_2.2.x_salvo_actions.png" src="update_2.2.x_salvo_actions.png"/>
+                <img alt="update_2.2.x_struct_copys.png" src="update_2.2.x_struct_copys.png"/>
+            </li>
+            <li>Refactored salvo api list window
+            <img alt="update_2.2.x_salvo_window" src="update_2.2.x_salvo_window.png"/>
+            </li>
+        </list>
+    </chapter>
+
+
+    <chapter title="2.0.3 (2024-08-03)" id="2-0-3">
+
 
         <list>
             <li>Fix the bug where the JSON to Sea-ORM type is null.</li>
